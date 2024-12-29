@@ -1,12 +1,17 @@
 ---
 layout: post
 title:  "Email Header Analysis"
-date:   2024-12-13
+date:   2024-12-22
 categories: Email 
 author: "Nicholas McAtee"
 ---
 
-Have you always wondered where a spam or phishing email orginated
+What is Email Header Analysis?
+
+Email header analysis involves examining the raw message data of an email to determine whether the email is legitimate or if it is potentially phishing, spam, or malicious. 
+By analyzing the information embedded in the email's header, you can uncover important details about the email’s origin, routing path, and authenticity. 
+This process helps to identify red flags that may indicate fraudulent or unwanted emails, such as mismatched sender addresses or suspicious server routes.
+
 
 
 
