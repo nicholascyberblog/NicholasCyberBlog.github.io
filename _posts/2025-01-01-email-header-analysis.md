@@ -4,6 +4,7 @@ title:  "Email Header Analysis"
 date:   2025-01-02
 categories: Email 
 author: "Nicholas McAtee"
+draft: true
 ---
 
 What is Email Header Analysis?
