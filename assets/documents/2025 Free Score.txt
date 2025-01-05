@@ -1,0 +1,56 @@
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com pod-id atlas--production-gq1-798c45db4d-v4lck.gq1.yahoo.com with HTTP; Thu, 5 Dec 2024 22:31:28 +0000
+Return-Path: <bounce@rare.swjuk.brighthorizonstech.uk>
+X-Originating-Ip: [193.32.163.204]
+Received-SPF: pass (domain of rare.swjuk.brighthorizonstech.uk designates 193.32.163.204 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=perm_fail header.i=@rare.swjuk.brighthorizonstech.uk header.s=smtp arc_overridden_status=NOT_OVERRIDDEN;
+ spf=pass smtp.mailfrom=rare.swjuk.brighthorizonstech.uk arc_overridden_status=NOT_OVERRIDDEN;
+ dmarc=unknown header.from=rare.swjuk.brighthorizonstech.uk arc_overridden_status=NOT_OVERRIDDEN;
+X-Apparently-To: ; Thu, 5 Dec 2024 22:31:29 +0000
+X-YMailISG: 7fGU4toWLDs75GlF.9OwU6SQsGJf1oyptCVdjdah.X8KMx9C
+ iMyDVpaj4JEFe.EuBh1T1ZNIKORm1R7wAhSUaYKB.ASFLbQVZ_ZixlPX7Yvi
+ .i5Ka3JgEICdWxOxOhH9K7G6Bos8wO9Xet0rX8D_NsLRfMktCf07hDYLOBkw
+ 2EUeQkABvXQsFKpGdQ7SBApS5pO94yWp8Nw.2EqpoD6A8.MR7sonyZKA7zRJ
+ UjKeG6ug_jgmLyztKQdZ4rQn0pxRq1nliyJpi92vHWQlcgFU9Ju_zylPmE1n
+ 6C8kzEKf4UDbs8CJYBo4cMhLfN3u1hboH.NwueMnLoYHzp7jtbEVbZQm_e.G
+ Fm1HgaVhRekFhf7fWG12Bv6_twNMd5eXKkq2DPTiixUksM.pEevk9Ry6SA2k
+ 2nSEvyJFx1brJuqziCWJqHIOu249VbuzWAhxEt7DJRGCTXErm6craAUvb2y_
+ BV_hvV1C_34kje9MkldE2BhpO6_rIDubfA0U6bCUf7NL9GZcuXhGd6swEP0z
+ Ol0CY3vN9xDD2w.v2TwOgNOCeKz28xtnpxmvZRm5H1pVprGCr5O5Hsi1QRYW
+ _VvPGSwVmABNofDa4Uw4OeIQFgCP8NUauHM4GQ1qj100T7cae6NM09ZNuOFz
+ 1IwGLNqWbi8r5o_q9Fs06VANqg7_zemycpYXFcfUMGY07AWAtnf0EedmwziK
+ Asmz_NjCib0pQGHuSHtoQPANRUCERxsByxxa4M.E_.2tx9X10x0kV8.NUAR7
+ YkHwMWs2bHh1aoA.bDYfuFV4Mnmu_fyNdHZYMG_GARdwwlD7rLsvlLdXDbDr
+ 5JqW8HoOob8Mhth5D0stVLB_4UzhWHPlRI9tV0.urnwbLAJwuNfRppTXLpmb
+ ybBZHTTD3rDVjTbw1MxvsX6p8Nzd2p9lMX1JvsFTq4_4fuLoALeaJdoSzlyu
+ yJ9ioBnusYzpBrhAE90gyRyA4QrYKA7tGGXpwExOkJEvMHt1LOZauhRzj60c
+ g9naRjyXghHf5XXQXjJ.9Tw1k0PxiOjXb0AJneL95RRqNKJZkv9VrT3kZ9Qw
+ MANXmu1fDEmyWAL1_iBKO5YqUMymIFzGcTpHR1Tro.z_tDyA.ptN1Fg48vO7
+ 4qX7GeB2OIMU4ps4MMoghJdfkN.D.MDiL7gJQba87dnR03YAIgo.nMLNyRtL
+ bwz5mTHm54Gm9t2uJ..W9jmffjZr0c6wEsBijqH21k88.08bN1U3bzjXm4LO
+ 8bLk1IasPSQslEffK.ds_Xrt9EdO2P5xkF50LJHMNrCX5fg-
+Received: from 193.32.163.204 (EHLO rare.swjuk.brighthorizonstech.uk)
+ by 10.213.170.250 with SMTP;
+ Thu, 05 Dec 2024 22:31:28 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=rare.swjuk.brighthorizonstech.uk;
+ h=To:From:Subject:Date:List-id:Reply-to:Message-ID:Content-Type:List-Unsubscribe; i=admin@rare.swjuk.brighthorizonstech.uk;
+ bh=CCvuLp1O7H/J2RWvP7cpA19xHHQ=;
+ b=1LFKnCHPfTtbdr05mm2SSanZpeIYUPaDFXzSqmuLagnhJJsYtCsTbke53EyH4YvLwPo9ql38sDi1
+   GVS6BOsh+Gs4f5PvGyG4MbL5s3kFtVfth6TO3WFPN0+f7kzONt7sWdiQaCDLhW/jT1oCr7QEyBeb
+   jESyBYIhNP8V8kKU/2c=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=rare.swjuk.brighthorizonstech.uk;
+ b=Zn+xhJSKJb24+JSRMXnFaGCsa+vwjnOxB+5RzLAVEhNglzKUYbdIkHkESDa4NIExVVIi+hq4NFXJ
+   5t8LG8UyrcCn6dWFJ+1gvEsq1MOTo27ThuB6sUiGNdDMx4gtfzMwiRw0SdFuTi5qXbhqrxgvkDV7
+   fp5bcAUAFJ7MmUD5YnA=;
+To: 
+From: "2025 Free Score" <admin@rare.swjuk.brighthorizonstech.uk>
+Subject: ðŸ¦ Equifax, Experian, TransUnionâ€”Check Your Scores Today!
+Date: Thu, 05 Dec 2024 20:46:14 +0000
+List-id:
+Reply-to: <reply@rare.swjuk.brighthorizonstech.uk>
+Message-ID: <194109869622568.591721405748795.DXQ2086324601@rare.swjuk.brighthorizonstech.uk>
+Content-Type: multipart/alternative; boundary="----=_Part_236599241_165493412.1679836627079"
+List-Unsubscribe: <http://rare.swjuk.brighthorizonstech.uk/6GaKGf252848BYVx338yahkabqnem5224FTKXLBZNMUYXRNA31021AMXN35788v23>
+Content-Length: 3099
+
