@@ -7,8 +7,6 @@ author: "Nicholas McAtee"
 
 ---
 
-**Email Header Analysis**
-
 **What is Email Header Analysis?**
 
 Email header analysis involves examining the raw message data of an email to determine whether the email is legitimate or potentially phishing, spam, or malicious.
@@ -26,7 +24,7 @@ One of the first things to examine in an email header is the **Received:** heade
 **Case Study: Analyzing a Suspicious Email**
 
 I had received an email from **brighthorizonstech.uk** about my **"2025 Free Score."** The below screenshot shows you the raw data from the email that we will be analyzing in this post. 
-To see the raw text you can find it in this .txt document [here](assets/documents/2025 Free Score.txt). 
+To see the raw text you can find it in this .txt document [here](/assets/documents/2025%20Free%20Score.txt)
 
 ![Picture of Raw Email Message](assets/email-images/Screenshot 1.png)
 
