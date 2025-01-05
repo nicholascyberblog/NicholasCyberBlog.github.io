@@ -17,9 +17,8 @@ This process helps to identify red flags that may indicate fraudulent or unwante
 
 One of the first things to examine in an email header is the **Received:** header. In a raw email message, there can be multiple **Received:** headers:
 
-• The topmost **Received:** header is the most recent and closest to the destination.
-
-• The bottommost **Received:** header is the earliest and closest to the sender (source).
+* The topmost **Received:** header is the most recent and closest to the destination.
+* The bottommost **Received:** header is the earliest and closest to the sender (source).
 
 **Case Study: Analyzing a Suspicious Email**
 
@@ -30,9 +29,9 @@ To see the raw text you can find it in this .txt document [here](/assets/documen
 
 **Step 1: Review the Received Headers**
 
-• The bottommost **Received:** header indicates that the email originated from an IP address **193.32.163.204**, which is the source mail server. 
-• The sender used the EHLO command to identify itself as **rare.swjuk.brighthorizonstech.uk** to the receiving SMTP server. 
-• The email was then received by the server at **10.213.170.250,** which is a private IP address that is typically used within an internal network.
+* The bottommost **Received:** header indicates that the email originated from an IP address **193.32.163.204**, which is the source mail server. 
+* The sender used the EHLO command to identify itself as **rare.swjuk.brighthorizonstech.uk** to the receiving SMTP server. 
+* The email was then received by the server at **10.213.170.250,** which is a private IP address that is typically used within an internal network.
 
 The screenshot below shows you the bottommost **Received:** header.
 
@@ -42,33 +41,33 @@ The screenshot below shows you the bottommost **Received:** header.
 
 To investigate the sender of the email, I looked up the IP address **193.32.163.204:**
 
-• The IP address is registered to an organization called **Rare Mood Agency SRL**, based in Romania.
-• However, the IP address is geographically located in San Jose, California, USA, indicating it may be using a hosting provider in the United States.
-• The IP is associated with the website www.vpsforvpn.com.
+* The IP address is registered to an organization called **Rare Mood Agency SRL**, based in Romania.
+* However, the IP address is geographically located in San Jose, California, USA, indicating it may be using a hosting provider in the United States.
+* The IP is associated with the website www.vpsforvpn.com.
 
-• The screenshot below shows you the WHOIS lookup information for the sender IP **196.32.163.204**.
+ The screenshot below shows you the WHOIS lookup information for the sender IP **196.32.163.204**.
 
 ![Whois Sender IP](/assets/email-images/Screenshot_3.png)
 
 A WHOIS lookup further confirmed the IP details and revealed the following information about the domain **brighthorizonstech.uk**:
 
-• The domain is only 418 days old.
-• There is no associated address or name linked to the domain.
-• The screenshot below shows you the WHOIS lookup on **brighthorizonstech.uk** domain.
+* The domain is only 418 days old.
+* There is no associated address or name linked to the domain.
+ The screenshot below shows you the WHOIS lookup on **brighthorizonstech.uk** domain.
 
 ![Whois brighthorizonstech.uk](/assets/email-images/Screenshot_4.png)
 
 **Step 3: Conduct DNS Lookups**
 
-• I ran a Nslookup on the IP address **193.32.163.204** and it returned with the message: "Non-existent domain."
+* I ran a Nslookup on the IP address **193.32.163.204** and it returned with the message: "Non-existent domain."
 
-• The screenshot below shows you the Nslookup on **193.32.163.204.**
+ The screenshot below shows you the Nslookup on **193.32.163.204.**
 
 ![Nslookup 193.32.163.304](/assets/email-images/Screenshot_5 nslookup.png)
 
-• I ran a Nslookup on the domain **brighthorizonstech.uk** which failed to resolve to any IP address.
+* I ran a Nslookup on the domain **brighthorizonstech.uk** which failed to resolve to any IP address.
 
-• The screenshot below shows you the Nslookup on the domain **brighthorizonstech.uk.**
+ The screenshot below shows you the Nslookup on the domain **brighthorizonstech.uk.**
 
 ![Nslookup brighthorizonstech.uk](/assets/email-images/Screenshot_6.png)
 
@@ -91,9 +90,9 @@ The below screenshot is the email that I had received **brighthorizonstech.uk.**
 
 From the gathered information, it is clear that the email did not originate from **brighthorizonstech.uk:**
 
-• The domain did not resolve to any IP address.
-• The sender’s IP address and associated organization do not match the purported sender.
-• The email’s unsubscribe address is in Texas, which further contradicts its claimed origin.
+* The domain did not resolve to any IP address.
+* The sender’s IP address and associated organization do not match the purported sender.
+* The email’s unsubscribe address is in Texas, which further contradicts its claimed origin.
 
 **Conclusion**
 
