@@ -26,7 +26,7 @@ One of the first things to examine in an email header is the **Received:** heade
 I had received an email from **brighthorizonstech.uk** about my **"2025 Free Score."** The below screenshot shows you the raw data from the email that we will be analyzing in this post. 
 To see the raw text you can find it in this .txt document [here](/assets/documents/2025%20Free%20Score.txt)
 
-[Picture of Raw Email Message](/assets/email-images/Screenshot_1.png "Picture of Raw Email Message")
+(/assets/email-images/Screenshot_1.png "Picture of Raw Email Message")
 
 **Step 1: Review the Received Headers**
 
