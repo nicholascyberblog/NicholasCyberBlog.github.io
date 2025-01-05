@@ -63,7 +63,7 @@ A WHOIS lookup further confirmed the IP details and revealed the following infor
 
  The screenshot below shows you the Nslookup on **193.32.163.204.**
 
-![Nslookup 193.32.163.304](/assets/email-images/Screenshot_5 nslookup.png)
+![Nslookup 193.32.163.304](/assets/email-images/Screenshot_5_nslookup.png)
 
 * I ran a Nslookup on the domain **brighthorizonstech.uk** which failed to resolve to any IP address.
 
@@ -78,11 +78,11 @@ These results highlight that the domain and IP Address does not match which rais
 There is an existing domain **brighthorizons.co.uk**, which appears legitimate and unrelated to **brighthorizonstech.uk.**
 This mismatch further confirms the email’s suspicious nature.
 
-The screenshot below shows you existing domain **brighthorizons.co.uk.**
+The screenshot below shows you the existing domain **brighthorizons.co.uk.**
 
 ![Legitmate website](/assets/email-images/Screenshot_7.png)
 
-The below screenshot is the email that I had received **brighthorizonstech.uk.**
+The below screenshot is the email that I had received from **brighthorizonstech.uk.**
 
 ![2025 Free Score Email](/assets/email-images/2025_Free_Score_Screenshot.png)
 
