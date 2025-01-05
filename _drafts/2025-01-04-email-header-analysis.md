@@ -26,7 +26,7 @@ One of the first things to examine in an email header is the **Received:** heade
 I had received an email from **brighthorizonstech.uk** about my **"2025 Free Score."** The below screenshot shows you the raw data from the email that we will be analyzing in this post. 
 To see the raw text you can find it in this .txt document [here](/assets/documents/2025%20Free%20Score.txt)
 
-[Picture of Raw Email Message](assets/email-images/Screenshot 1.png)
+[Picture of Raw Email Message](assets/email-images/Screenshot_1.png)
 
 **Step 1: Review the Received Headers**
 
@@ -36,7 +36,7 @@ To see the raw text you can find it in this .txt document [here](/assets/documen
 
 The screenshot below shows you the bottommost **Received:** header.
 
-[Bottommost Header](assets/email-images/Screenshot 2.png)
+[Bottommost Header](assets/email-images/Screenshot_2.png)
 
 **Step 2: Perform an IP Address and WHOIS Lookup**
 
@@ -48,7 +48,7 @@ To investigate the sender of the email, I looked up the IP address **193.32.163.
 
 • The screenshot below shows you the WHOIS lookup information for the sender IP **196.32.163.204**.
 
-[Whois Sender IP](assets/email-images/Screenshot 3.png)
+[Whois Sender IP](assets/email-images/Screenshot_3.png)
 
 A WHOIS lookup further confirmed the IP details and revealed the following information about the domain **brighthorizonstech.uk**:
 
@@ -56,7 +56,7 @@ A WHOIS lookup further confirmed the IP details and revealed the following infor
 • There is no associated address or name linked to the domain.
 • The screenshot below shows you the WHOIS lookup on **brighthorizonstech.uk** domain.
 
-[Whois brighthorizonstech.uk](assets/email-images/Screenshot 4.png)
+[Whois brighthorizonstech.uk](assets/email-images/Screenshot_4.png)
 
 **Step 3: Conduct DNS Lookups**
 
@@ -64,13 +64,13 @@ A WHOIS lookup further confirmed the IP details and revealed the following infor
 
 • The screenshot below shows you the Nslookup on **193.32.163.204.**
 
-[Nslookup 193.32.163.304](assets/email-images/Screenshot 5 nslookup.png)
+[Nslookup 193.32.163.304](assets/email-images/Screenshot_5 nslookup.png)
 
 • I ran a Nslookup on the domain **brighthorizonstech.uk** which failed to resolve to any IP address.
 
 • The screenshot below shows you the Nslookup on the domain **brighthorizonstech.uk.**
 
-[Nslookup brighthorizonstech.uk](assets/email-images/Screenshot 6.png)
+[Nslookup brighthorizonstech.uk](assets/email-images/Screenshot_6.png)
 
 These results highlight that the domain and IP Address does not match which raises further red flags.
 
@@ -81,11 +81,11 @@ This mismatch further confirms the email’s suspicious nature.
 
 The screenshot below shows you existing domain **brighthorizons.co.uk.**
 
-[Legitmate website](assets/email-images/Screenshot 7.png)
+[Legitmate website](assets/email-images/Screenshot_7.png)
 
 The below screenshot is the email that I had received **brighthorizonstech.uk.**
 
-[2025 Free Score Email](assets/email-images/2025 Free Score Screenshot.png)
+[2025 Free Score Email](assets/email-images/2025_Free_Score_Screenshot.png)
 
 **Findings**
 
