@@ -49,7 +49,7 @@ author: "Nicholas McAtee"
 
 Duncan, Brad. “2026-02-28 - TRAFFIC ANALYSIS EXERCISE: EASY AS 123.” Malware-Traffic-Analysis.Net, 28 Feb. 2026, www.malware-traffic-analysis.net/2026/02/28/index.html.
  
-Duncan, Brad. “Unit 42 Wireshark Workshop Part 3: Host Identification | Unit 42 .” Youtube, 1 Oct. 2021, www.youtube.com/watch?v=S-ny315TOyk&t=1693s.
+Duncan, Brad. “Unit 42 Wireshark Workshop Part 3: Host Identification  Unit 42 .” Youtube, 1 Oct. 2021, www.youtube.com/watch?v=S-ny315TOyk&t=1693s.
  
 Sharpe, Richard, et al. “Chapter 1. Introduction.” Chapter 1. Introduction, www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html. Accessed 22 July 2026.
  
@@ -57,6 +57,6 @@ Sharpe, Richard, et al. “Chapter 1. Introduction.” Chapter 1. Introduction, 
  
 Duncan, Brad. “Wireshark Tutorial: Identifying Hosts and Users.” Unit 42 Paloalto Networks, 10 Oct. 2023, unit42.paloaltonetworks.com/using-wireshark-identifying-hosts-and-users/.
  
-“Kerberos Authentication Overview in Windows Server | Microsoft Learn.” Microsoft Windows-Server, 17 July 2025, learn.microsoft.com/en-us/windows-server/security/kerberos/kerberos-authentication-overview. 
+“Kerberos Authentication Overview in Windows Server  Microsoft Learn.” Microsoft Windows-Server, 17 July 2025, learn.microsoft.com/en-us/windows-server/security/kerberos/kerberos-authentication-overview. 
 
 ---
