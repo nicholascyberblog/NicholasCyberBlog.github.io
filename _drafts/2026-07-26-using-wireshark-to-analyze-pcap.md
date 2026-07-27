@@ -15,25 +15,31 @@ author: "Nicholas McAtee"
 
 **Step 1: Identify the IP address of the Infected Windows Client**
 
-![Infected Client IP address](assets/PCAP-images/IPaddress.png)
+![Infected Client IP address](/assets/PCAP-images/IPaddress.png)
+
 **Step 2: Identify the Mac address of the infected client**
  
 
-![Infected Client mac address](assets/PCAP-images/macaddress.png) 
+![Infected Client mac address](/assets/PCAP-images/macaddress.png)
+ 
 **Step 3: Identify the host name of the infected Windows client**
  
 
-![Infected Client host name](assets/PCAP-images/dhcp-hostname.png)
-![Infected Client nbns host name](assets/PCAP-images/nbns-hostname.png)  
+![Infected Client host name](/assets/PCAP-images/dhcp-hostname.png)
+![Infected Client nbns host name](/assets/PCAP-images/nbns-hostname.png)
+  
 **Step 4: Identify the user account name of the infected Windows client**
 
 
-![Infected Client user account](assets/PCAP-images/useraccount.png)
+![Infected Client user account](/assets/PCAP-images/useraccount.png)
+
 **Step 5: Identify the full name of the user who uses the infected Windows client**
 
 
-![Infected Client Full Name](assets/PCAP-images/FullName-1.png)
+![Infected Client Full Name](/assets/PCAP-images/FullName-1.png)
+
 **Findings:**
+
 
 **Conclusion:**
 
