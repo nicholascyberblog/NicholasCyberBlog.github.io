@@ -11,6 +11,10 @@ author: "Nicholas McAtee"
 
 **What is PCAP Analysis?**
 
+PCAP stands for Packet Capture. During a packet capture, a PCAP file is generated and contains the captured network traffic. 
+For this blog post, PCAP analysis involves using Wireshark to analyze an existing PCAP file. 
+Analysts would use PCAP files to examine the network traffic for security issues, troubleshoot network problems, understand how network protocols work, and observe communication between devices on a network.  
+
 **Case Study: PCAP Analysis with Wireshark**
 
 **Step 1: Identify the IP address of the Infected Windows Client**
