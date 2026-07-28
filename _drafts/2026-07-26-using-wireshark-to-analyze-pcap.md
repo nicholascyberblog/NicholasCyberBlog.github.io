@@ -46,7 +46,11 @@ The mac address of the infected client is **00:19:d1:b2:4d:ad**.
 
 **Step 5: Identify the full name of the user who uses the infected Windows client**
 
-
+The last piece of information that we are looking for is the full name for the username **brolf**. 
+To find the full name you will click on **Find Packet** in Wireshark and type in **brolf** as shown below and click find. 
+I continued going through the packets that are associated to brolf , until I came across the packet with the **QueryuserInfo response**. 
+Once I got to that packet I examined the packet for the Full name field and found that the identified user is **Becka Rolf**.
+ 
 ![Infected Client Full Name](/assets/PCAP-images/FullName-1.png)
 
 **Findings:**
