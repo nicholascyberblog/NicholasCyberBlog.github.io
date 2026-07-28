@@ -51,6 +51,8 @@ The mac address of the infected client is **00:19:d1:b2:4d:ad**.
 
 **Findings:**
 
+From the information gathered, the infected client had an IP address of 10.2.28.88. The mac address is 00:19:d1:b2:4d:ad. 
+The host name is DESKTOP-TEYQ2NR. The user account name is brolf and the full name is Becka Rolf.
 
 **Conclusion:**
 
@@ -69,4 +71,5 @@ Duncan, Brad. “Wireshark Tutorial: Identifying Hosts and Users.” Unit 42 Pal
  
 “Kerberos Authentication Overview in Windows Server  Microsoft Learn.” Microsoft Windows-Server, 17 July 2025, learn.microsoft.com/en-us/windows-server/security/kerberos/kerberos-authentication-overview. 
 
+“What Is a PCAP File?  Sysdig.” What Is a PCAP File?, 31 Mar. 2026, www.sysdig.com/learn-cloud-native/what-is-a-pcap-file. 
 ---
