@@ -11,19 +11,25 @@ author: "Nicholas McAtee"
 
 **What is PCAP Analysis?**
 
-PCAP stands for Packet Capture. During a packet capture, a PCAP file is generated and contains the captured network traffic. 
+**PCAP** stands for **Packet Capture**. During a packet capture, a **PCAP** file is generated and contains the captured network traffic. 
 For this blog post, PCAP analysis involves using Wireshark to analyze an existing PCAP file. 
 Analysts would use PCAP files to examine the network traffic for security issues, troubleshoot network problems, understand how network protocols work, and observe communication between devices on a network.  
 
 **Case Study: PCAP Analysis with Wireshark**
 
+In this post we are going to be using a Brad Duncan’s malware traffic analysis exercise to investigate a infected computer that has been infected with the NetSupport Manager RAT. 
+The objectives of this PCAP Analysis are to discover the IP address, MAC address, hostname, user account name, and the full name of the user of the infected Windows client.
+ 
 **Step 1: Identify the IP address of the Infected Windows Client**
 
 ![Infected Client IP address](/assets/PCAP-images/IPaddress.png)
 
 **Step 2: Identify the Mac address of the infected client**
  
-
+The next piece of information that we are looking for is the mac address of the infected client.  
+I was able to find the mac address using the dhcp in the filter and in the packet under Dynamic Host Configuration Protocol (Request) with the line that said **Client Mac Address: Intel_b2:4d:ad (00:19:d1:b2:4d:ad).**
+The mac address of the infected client is **00:19:d1:b2:4d:ad**.
+ 
 ![Infected Client mac address](/assets/PCAP-images/macaddress.png)
  
 **Step 3: Identify the host name of the infected Windows client**
