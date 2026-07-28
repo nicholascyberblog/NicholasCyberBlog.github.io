@@ -72,4 +72,5 @@ Duncan, Brad. “Wireshark Tutorial: Identifying Hosts and Users.” Unit 42 Pal
 “Kerberos Authentication Overview in Windows Server  Microsoft Learn.” Microsoft Windows-Server, 17 July 2025, learn.microsoft.com/en-us/windows-server/security/kerberos/kerberos-authentication-overview. 
 
 “What Is a PCAP File?  Sysdig.” What Is a PCAP File?, 31 Mar. 2026, www.sysdig.com/learn-cloud-native/what-is-a-pcap-file.
+
 ---
