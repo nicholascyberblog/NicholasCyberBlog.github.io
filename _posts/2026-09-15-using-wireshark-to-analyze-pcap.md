@@ -37,7 +37,7 @@ The results of the **DHCP** traffic are shown below in the screenshot.
 **Step 2: Determine the Client MAC Address**
  
 The next piece of information that we are looking for is the MAC address of the infected client. 
-I was able to find the MAC address using the **dhcp** display filter and in the highlighted packet that is currently open. Under Dynamic Host Configuration Protocol (Request) with the line that says **Client Mac Address: Intel_b2:4d:ad (00:19:d1:b2:4d:ad)**.
+I was able to find the MAC address using the **dhcp** display filter and in the highlighted packet that is currently open. Under Dynamic Host Configuration Protocol (Request) you will find the client MAC address with the line that says **Client Mac Address: Intel_b2:4d:ad (00:19:d1:b2:4d:ad)**.
 The MAC address of the infected client is **00:19:d1:b2:4d:ad**. 
  
 ![Infected Client mac address](/assets/PCAP-images/macaddress.png)
