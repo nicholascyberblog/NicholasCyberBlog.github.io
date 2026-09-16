@@ -76,13 +76,13 @@ After locating the packet, I examined the packet for the Full name field and fou
 
 The findings are shown below
  
-| **    Finding:   **     | **    Value:   **            |
+|       Finding:          |      Value:                  |
 |-------------------------|------------------------------|
-| **    IP Address   **   | **    10.2.28.88   **        |
-| **    MAC Address   **  | **    00:19:d1:b2:4d:ad   ** |
-| **    Hostname   **     | **    DESKTOP-TEYQ2NR   **   |
-| **    User Account   ** | **    brolf   **             |
-| **    Full Name   **    | **    Becka Rolf   **        |
+|       IP Address        |       10.2.28.88             |
+|       MAC Address       |       00:19:d1:b2:4d:ad      |
+|       Hostname          |       DESKTOP-TEYQ2NR        |
+|       User Account      |       brolf                  |
+|       Full Name         |       Becka Rolf             |
 
 **Conclusion:**
 
