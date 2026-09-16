@@ -45,7 +45,7 @@ The MAC address of the infected client is **00:19:d1:b2:4d:ad**.
 **Step 3: Determine the Client Hostname**
  
 The next piece of information we are looking for is the computer name of the client. The computer name is also known as the hostname. 
-I used the same filter as the previous question for  **DHCP**, since the **DHCP** filter provided us with the **IP address**,**MAC address**, and **hostname**. 
+I used the same filter as the previous question for  **DHCP**, since the **DHCP** filter provided us with the **IP address**, **MAC address**, and **hostname**. 
 The hostname of the infected client that is highlighted in the screenshot is **DESKTOP-TEYQ2NR**. You can also use another filter to get the host’s name called **NBNS**(NetBIOS Name Service).
  
 If you use the **DHCP** filter, you will find the hostname under **Option:(12) Host Name**.
@@ -74,7 +74,8 @@ After locating the packet, I examined the packet for the Full name field and fou
 
 **Findings:**
 
-The findings are shown below 
+The findings are shown below
+ 
 | **    Finding:   **     | **    Value:   **            |
 |-------------------------|------------------------------|
 | **    IP Address   **   | **    10.2.28.88   **        |
